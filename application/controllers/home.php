@@ -4,7 +4,7 @@ class Home extends CI_Controller {
 
     public function index() 
     {
-        $this->load->view('header', array('title' => 'My Project'));
+        $this->load->view('header', array('title' => 'My Boomarks Start Page'));
         $this->load->view('home/default');
         $this->load->view('footer');
     }
