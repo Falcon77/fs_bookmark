@@ -8,3 +8,6 @@ Password:<?php echo form_input('password', ''); ?><br />
 Email:<?php echo form_input('email', ''); ?><br />
 <?php echo form_submit('submit', 'submit'); ?><br />
 <?php echo form_close(); ?>
+
+<br /><br />
+

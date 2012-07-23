@@ -7,7 +7,7 @@ body {
 
 /** Structure **/
 #header {
-    padding: 20px;
+    padding: 10px;
     background: #12407f;
     color: #fff;
     border-top-left-radius: 10px;
@@ -31,19 +31,19 @@ body {
 
 /** Links **/
 #header a {
-    color: #fff;
-    background: #436fac;
+    color: silver;;
+    /** background: #436fac;
     padding: 4px 15px;
+    font-size: 15px; **/
     text-decoration: none;
-    font-size: 15px;
-    font-weight: bolder;
+    /** font-weight: bold; **/
 }
 
 #header a:hover {
     background: #4d8add
 }
 
-/** Forms **/
+/** Forms 
 form {
     font: 100% verdana, arial, sans-serif;
 }
@@ -70,3 +70,4 @@ form input[type=submit]:hover {
 }
 
 form br {clear: left;}
+**/
