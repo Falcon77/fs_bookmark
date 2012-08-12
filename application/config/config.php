@@ -15,6 +15,8 @@
 |
 */
 $config['base_url']	= '';
+// change to this for live website
+//$config['base_url']	= 'http://startho.me/';
 
 /*
 |--------------------------------------------------------------------------

@@ -1,6 +1,8 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteBase /fs_bookmark/
+    #change to this for live website
+    #RewriteBase /
 
     #Removes access to the system folder by users.
     #Additionally this will allow you to create a System.php controller,

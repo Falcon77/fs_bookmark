@@ -49,6 +49,9 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
+//$db['default']['username'] = 'starthome_dba';
+//$db['default']['password'] = 'dba!!2012#M';
+//$db['default']['database'] = 'fs_bookmark';
 $db['default']['username'] = 'root';
 $db['default']['password'] = '';
 $db['default']['database'] = 'fs_bookmark';
