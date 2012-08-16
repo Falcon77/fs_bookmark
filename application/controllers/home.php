@@ -14,7 +14,7 @@ class Home extends CI_Controller
             } else {
                 $data['user_id']	= $this->tank_auth->get_user_id();
                 $data['username']	= $this->tank_auth->get_username();
-                $this->load->view('header', array('title' => 'My Bookmarks Start Pate'));
+                $this->load->view('header', array('title' => 'My Bookmarks Start Page'));
                 $this->load->view('home/default', $data);
                 $this->load->view('footer');
             }
