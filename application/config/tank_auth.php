@@ -7,7 +7,7 @@
 | These details are used in emails sent by authentication library.
 |--------------------------------------------------------------------------
 */
-$config['website_name'] = 'Your project';
+$config['website_name'] = 'StartHo.me';
 $config['webmaster_email'] = 'webmaster@your-site.com';
 
 /*
@@ -127,8 +127,8 @@ $config['captcha_case_sensitive'] = TRUE;
 |--------------------------------------------------------------------------
 */
 $config['use_recaptcha'] = FALSE;
-$config['recaptcha_public_key'] = '';
-$config['recaptcha_private_key'] = '';
+$config['recaptcha_public_key'] = '6LfPfNUSAAAAAIa8lRn0krRfoB84t8UVfjlM1ofo';
+$config['recaptcha_private_key'] = '6LfPfNUSAAAAAFoJQYRS51EG0x_amZ5jyy_HRtsA';
 
 /*
 |--------------------------------------------------------------------------
