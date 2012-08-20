@@ -15,7 +15,9 @@ class Auth extends CI_Controller
 	function index()
 	{
 		if ($message = $this->session->flashdata('message')) {
+                        $this->load->view('header', array('title' => 'Login Form'));    //Fermin
 			$this->load->view('auth/general_message', array('message' => $message));
+                        $this->load->view('footer');
 		} else {
 			redirect('/auth/login/');
 		}
@@ -229,7 +231,9 @@ class Auth extends CI_Controller
 					foreach ($errors as $k => $v)	$data['errors'][$k] = $this->lang->line($v);
 				}
 			}
+                        $this->load->view('header', array('title' => 'Login Form'));    //Fermin
 			$this->load->view('auth/send_again_form', $data);
+                        $this->load->view('footer');
 		}
 	}
 
