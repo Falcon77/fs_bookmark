@@ -1,7 +1,7 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteBase /fs_bookmark/
-    #change to this for live website
+    RewriteBase /fs_bookmark
+    #change to this for live website - Fermin
     #RewriteBase /
 
     #Removes access to the system folder by users.

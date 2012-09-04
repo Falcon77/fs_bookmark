@@ -334,10 +334,8 @@ FileETag None
 # Options +SymLinksIfOwnerMatch
   RewriteEngine On
 
-  #Fermin Suero added lines below, to end of <IfModule>, for CI
-  #RewriteBase /
-  #Use line below and comment out line above for local site - Fermin
-  RewriteBase /fs_bookmark
+  #Fermin Suero added lines below, to end of IfModule, for CI
+  RewriteBase /fs_bookmark/
 
   #Removes access to the system folder by users.
   #Additionally this will allow you to create a System.php controller,
@@ -487,9 +485,9 @@ AddCharset utf-8 .atom .css .js .json .rss .vtt .xml
 # period. This includes directories used by version control systems such as
 # Subversion or Git.
 <IfModule mod_rewrite.c>
-  #RewriteCond %{SCRIPT_FILENAME} -d [OR]
-  #RewriteCond %{SCRIPT_FILENAME} -f
-  #RewriteRule "(^|/)\." - [F]
+  RewriteCond %{SCRIPT_FILENAME} -d [OR]
+  RewriteCond %{SCRIPT_FILENAME} -f
+  RewriteRule "(^|/)\." - [F]
 </IfModule>
 
 # Block access to backup and source files. These files may be left by some
