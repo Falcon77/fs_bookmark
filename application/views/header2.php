@@ -1,28 +1,8 @@
 <!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
     <title><?php echo $title; ?></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
-    
-    <link rel="stylesheet" href="<?php echo base_url(); ?>css/bootstrap.min.css">
-    <style>
-        body {
-            padding-top: 60px;
-            padding-bottom: 40px;
-        }
-    </style>
-    <link rel="stylesheet" href="<?php echo base_url(); ?>css/bootstrap-responsive.min.css">
-    <link rel="stylesheet" href="<?php echo base_url(); ?>css/main.css">
-    
-    <script src="<?php echo base_url(); ?>js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
-        
     
     <!-- css:Reset For now will include in the default.css file -->
     <!-- <link rel="stylesheet" href="reset.css" type="text/css" /> -->
@@ -35,11 +15,7 @@
     
 </head>
 <body>
-    <!--[if lt IE 7]>
-        <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
-    <![endif]-->
-<div class="navbar navbar-inverse navbar-fixed-top">Test
-</div>
+   
 <!-- start:Wrap -->
 <div id="wrap">
      
@@ -74,5 +50,33 @@
     <!-- end login form -->
 </div>
 
+<!--
+    <div>
+        <table cellspacing="0" border="1">
+            <tr>
+                <td class="html7magic"><label for="email">Email or Phone</label></td>
+                <td class="html7magic"><label for="pass">Password</label></td>
+            </tr>
+            <tr>
+                <td><input type="text" class="inputtext" name="email" id="email" value="" tabindex="1" /></td>
+                <td><input type="password" class="inputtext" name="pass" id="pass" tabindex="2" /></td>
+                <td><label class="uiButton uiButtonConfirm" id="loginbutton" for="ulrj4m_4">
+                        <input value="Log In" tabindex="4" type="submit" id="ulrj4m_4" />
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td class="login_form_label_field"><div class="uiInputLabel clearfix">
+                        <input id="persist_box" type="checkbox" name="persistent" value="1" checked="1" class="uiInputLabelCheckbox" />
+                        <label for="persist_box">Keep me logged in</label></div>
+                    <input type="hidden" name="default_persistent" value="1" />
+                </td>
+                <td class="login_form_label_field">
+                    <a rel="nofollow" href="">Forgot your password?</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+-->
 <!-- start:Content -->
 <div id="content">
