@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="<?php echo base_url(); ?>css/bootstrap.css">
     <style>
         body {
-            padding-top: 60px;
+            padding-top: 80px;
             padding-bottom: 40px;
         }
     </style>
@@ -40,7 +40,10 @@
     <![endif]-->
 <!-- start:Wrap -->
 <div id="wrap">
-    
+
+<!-- start:Header -->
+<div id="header">
+
 <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="navbar-inner">
         <div class="container">
@@ -72,7 +75,7 @@
 <!-- start:Header -->
 <!div id="header">
 
-<!/div>
+</div>
 
 <!-- start:Content -->
 <div id="content">
